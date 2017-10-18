@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #String variables
-v
+#====================================
 name = "John"
 surname = "Snow"
 print(name)
@@ -25,3 +25,39 @@ print(miles)
 k = i = 1
 print(k)
 print(i)
+
+#list types
+#====================================
+
+mylist = ["John" , 5 , 10.2]
+mylist2 = ["Michael","Sarah"]
+print(mylist[0])
+print(mylist[1:3])
+print(mylist[1:])
+print(mylist * 2)
+print(mylist + mylist2)
+mylist3 = mylist + mylist2
+print(mylist3[4])
+
+#tupples (read only lists)
+#====================================
+mytupple = ["John" , 5 , 10.2]
+mytupple2 = ["Michael","Sarah"]
+print(mytupple[0])
+print(mytupple[1:3])
+print(mytupple[1:])
+print(mytupple * 2)
+print(mytupple + mytupple2)
+mytupple3 = mytupple + mytupple2
+print(mytupple3[4])
+
+#dictionary (like json)
+#====================================
+dict = {}
+dict["name"] = "John Snow"
+dict["age"] = 30
+print(dict)
+print(dict["name"])
+
+#Data Type Conversion
+#====================================
