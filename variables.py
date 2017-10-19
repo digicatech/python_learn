@@ -40,17 +40,32 @@ print(mylist + mylist2)
 mylist3 = mylist + mylist2
 print(mylist3[4])
 
-#tupples (read only lists)
+#tuples (read only lists)
 #====================================
-mytupple = ["John" , 5 , 10.2]
-mytupple2 = ["Michael","Sarah"]
-print(mytupple[0])
-print(mytupple[1:3])
-print(mytupple[1:])
-print(mytupple * 2)
-print(mytupple + mytupple2)
-mytupple3 = mytupple + mytupple2
-print(mytupple3[4])
+mytuple = ["John" , 5 , 10.2]
+mytuple2 = ["Michael","Sarah"]
+print(mytuple[0])
+print(mytuple[1:3])
+print(mytuple[1:])
+print(mytuple * 2)
+print(mytuple + mytuple2)
+mytuple3 = mytuple + mytuple2
+print(mytuple3[4])
+print('John' in mytuple)
+print('John' in mytuple2)
+print('John' in mytuple3)
+for val in mytuple3:
+    print(val)
+print(len(mytuple3))
+print(tuple(mylist3)) #converts list to tuple
+del mytuple3
+try:
+    print(mytuple3) #error
+except Exception as e:
+    #print("hata" +  str()
+    print(e)
+finally:
+    print("and finally ...")
 
 #dictionary (like json)
 #====================================
