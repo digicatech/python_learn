@@ -12,6 +12,11 @@ print (name[0:2]) # Substring
 print (name[2:]) # Prints name starting from 3rd character
 print(name * 3) # Prints name three times
 
+#String interpolation
+#====================================
+print(f"Hello , {name}")
+
+
 #Numeric variables
 #====================================
 #integer variable
