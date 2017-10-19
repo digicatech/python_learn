@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 
 #String variables
 #====================================
@@ -61,3 +62,12 @@ print(dict["name"])
 
 #Data Type Conversion
 #====================================
+#Type check
+myStr = "my test string"
+print(type(myStr))  #import sys
+
+if type(myStr) != str:
+    print("variable is not string")
+else:
+    print("variable is string")
+
