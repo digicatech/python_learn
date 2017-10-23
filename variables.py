@@ -1,4 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import sys
 
 #String variables
@@ -11,6 +13,16 @@ print (name[0])
 print (name[0:2]) # Substring
 print (name[2:]) # Prints name starting from 3rd character
 print(name * 3) # Prints name three times
+
+print("J" in name) #True
+print("k" in name) #False
+print("k" not in name) #True
+
+print("My name is %s %s. And I am %i years old."%(name , surname , 28))  #string format
+
+print(u"unicode string...")
+print("çarşı her şeye karşı".encode(encoding='utf_8'))
+print("my test string".capitalize()) #capitalize first char
 
 #String interpolation
 #====================================
@@ -26,11 +38,15 @@ print(a)
 miles   = 1000.0
 print(miles)
 
+print(int("15"))
+print(float("12.5"))
+
 
 #Multiple Assignment
 k = i = 1
 print(k)
 print(i)
+del k  #delete variable
 
 #list types
 #====================================
