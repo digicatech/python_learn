@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6889f462-31ac-4c7c-b5ed-aff06f26d3d9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/radio_works.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_learn.iml" afterPath="$PROJECT_DIR$/.idea/python_learn.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pls_file.py" afterPath="$PROJECT_DIR$/pls_file.py" />
     </list>
@@ -17,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="radio_works.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="radio_works.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/radio_works.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -27,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pls_file.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pls_file.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pls_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="147">
+              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="61" />
               <folding>
                 <element signature="e#68#83#0" expanded="true" />
               </folding>
@@ -51,6 +48,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>current son</find>
+      <find>Current Son</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,8 +66,8 @@
         <option value="$PROJECT_DIR$/hash.py" />
         <option value="$PROJECT_DIR$/httpJsonPost.py" />
         <option value="$PROJECT_DIR$/httprequest.py" />
-        <option value="$PROJECT_DIR$/pls_file.py" />
         <option value="$PROJECT_DIR$/radio_works.py" />
+        <option value="$PROJECT_DIR$/pls_file.py" />
       </list>
     </option>
   </component>
@@ -125,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.radio_works">
+  <component name="RunManager" selected="Python.pls_file">
     <configuration name="bitstamp_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,8 +223,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.radio_works" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pls_file" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pls_file" />
+        <item index="1" class="java.lang.String" itemvalue="Python.radio_works" />
         <item index="2" class="java.lang.String" itemvalue="Python.bitstamp_api" />
         <item index="3" class="java.lang.String" itemvalue="Python.httprequest" />
         <item index="4" class="java.lang.String" itemvalue="Python.httpJsonPost" />
@@ -254,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511249612175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="persing pls stream file.">
+      <created>1512458160570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512458160570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -289,7 +294,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uptaded jsonwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="uptaded jsonwork" />
+    <MESSAGE value="persing pls stream file." />
+    <option name="LAST_COMMIT_MESSAGE" value="persing pls stream file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -450,21 +456,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pls_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#68#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/radio_works.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pls_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="61" />
+          <folding>
+            <element signature="e#68#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
