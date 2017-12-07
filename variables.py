@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
+from collections import deque
 
 #String variables
 #====================================
@@ -90,14 +91,40 @@ finally:
 
 #dictionary (like json)
 #====================================
+print("======= dictionaries ==============")
 dict = {}
 dict["name"] = "John Snow"
 dict["age"] = 30
 print(dict)
 print(dict["name"])
+#or another way
+print(dict.get("name"))
+
+
+
+#Stack - LIFO
+print("=================Stack===================")
+stack = [3,4,5]
+stack.append(6)
+print(stack) #added 6 at to end
+stack.pop()
+print(stack)
+
+#Queue  FIFO - from collections import deque
+print("=================Queue===================")
+deque = deque(["red","green","blue"])
+deque.append("yellow")
+print(deque)
+deque.popleft()
+print(deque)
+deque.popleft()
+print(deque)
+deque.popleft()
+print(deque)
+
 
 #Data Type Conversion
-#====================================
+print("=================Type convert===================")
 #Type check
 myStr = "my test string"
 print(type(myStr))  #import sys
@@ -107,3 +134,6 @@ if type(myStr) != str:
 else:
     print("variable is string")
 
+a = "15" # a is string
+a = int(a) # a is now integer
+print(type(a))
