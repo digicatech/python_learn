@@ -56,6 +56,7 @@ mylist = ["John" , 5 , 10.2]
 mylist2 = ["Michael","Sarah"]
 print(mylist[0])
 print(mylist[1:3])
+print(mylist[::-1])
 print(mylist[1:])
 print(mylist * 2)
 print(mylist + mylist2)
