@@ -7,13 +7,13 @@ import configparser
 import sys
 import io
 
-main_url = "http://46.20.3.204/"
+main_url = "http://shoutcast.radyogrup.com:1020/"
 #main_url = "http://mp3channels.webradio.antenne.de/chillout/"
 
 #played song list
 headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0' }
 r = requests.get(main_url + "played.html" , headers=headers)
-#print(r.text)
+print(r.text)
 
 #meta data
 r2 = requests.get(main_url + "index.html" , headers=headers)
@@ -25,8 +25,10 @@ print(r2.text)
 target_url = main_url + "listen.pls"
 response = requests.get(target_url) # it's a file like object and works just like a file
 
-'''for line in response: # files are iterable
-    print(line)'''
+for line in response: # files are iterable
+    print('-------')
+    print(line)
+
 
 
 #print(response.content)
